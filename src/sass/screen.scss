@@ -1,0 +1,132 @@
+$max-width: 60em;
+$padding-value: 1em;
+$footer-height: 6em;
+
+$white: #fcfcfc;
+$black: #3c3c3c;
+$color-background-light: $white;
+$color-background-dark: $black;
+
+body , html{
+	background-color: $color-background-light;
+	padding: 0;
+	margin: 0;
+	height:100%;
+}
+
+.image-section {
+	background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
+	background-size: cover;
+	height: 30em;
+	width: 100%;
+	
+}
+
+.main-wrap {
+	min-height:100%;
+	position:relative;
+}
+
+.content {
+	margin: 0 auto;
+	padding-bottom: $footer-height;
+}
+
+.nav-main {
+	max-width: $max-width/2;
+	.span {
+		max-width: $max-width/2 + $padding-value*2;
+	}
+	ul {
+		display: inline-block;
+		display: flex;
+		flex-wrap: wrap;
+		padding: $padding-value;
+	}
+	li {
+		flex: 1;
+		padding: $padding-value;
+	}
+	a {
+		color: $black;
+
+	}
+
+}
+
+.img-container {
+	margin: 0 auto;
+}
+
+.logo-container {
+	max-width: 20em;
+	margin: 0 auto;
+}
+.logo {
+	max-width: 100%;
+}
+nav {
+	margin: 0 auto;
+}
+ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	li {
+		display: inline-block;
+		margin: 0 auto;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+.footer {
+	background: $color-background-dark;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height: $footer-height;
+	color: $color-background-light;
+	text-align: center;
+
+	ul {
+		margin: 0 auto;
+		max-width: $max-width/2;
+		display: inline-block;
+		//padding: $padding-value;
+	}
+	p, a {
+		color: $color-background-light;
+		//padding: $padding-value;
+
+	}
+	li {
+		padding: $padding-value;
+	}
+}
+
+.span {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  max-width: 40em;
+}
+.span:before,
+.span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  background: $color-background-dark;
+  width: $padding-value*4;
+}
+.span:before {
+  left: 100%;
+  margin-left: $padding-value;
+}
+.span:after {
+  right: 100%;
+  margin-right: $padding-value;
+}

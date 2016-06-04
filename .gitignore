@@ -1,0 +1,6 @@
+s3settings.json
+deploy
+Gemfile.lock
+node_modules
+.sass-cache
+

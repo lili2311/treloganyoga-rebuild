@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+	<html lang="en-gb">
+	 {% include head.html %}
+	<body>
+		<div class="main-wrap">
+			{% include header.html %}
+			<div class="content">
+
+				{{ content }}
+				{% include social.html %}
+			</div>
+			{% include footer.html %}
+			{% include analytics.html %}
+		</div>
+	</body>
+</html>

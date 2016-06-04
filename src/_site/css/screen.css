@@ -1,0 +1,79 @@
+/*
+Error: Undefined variable: "$padding-margin-value".
+        on line 5 of src/sass/partials/_forms.scss
+        from line 1 of src/sass/screen.scss
+
+1: @import "partials/forms";
+2: 
+3: $max-width: 60em;
+4: $padding-value: 1em;
+5: $footer-height: 6em;
+6: 
+7: $white: #fcfcfc;
+8: $black: #3c3c3c;
+9: $pink: #FFC8C3;
+10: $pink-grey: #5E5251;
+
+Backtrace:
+src/sass/partials/_forms.scss:5
+src/sass/screen.scss:1
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `map'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:88:in `block in with_import'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:88:in `with_import'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:412:in `run'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+/Users/lk/.rvm/gems/ruby-2.1.1/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+/Users/lk/.rbenv/versions/2.1.1/bin/sass:23:in `load'
+/Users/lk/.rbenv/versions/2.1.1/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$padding-margin-value\".\A         on line 5 of src/sass/partials/_forms.scss\A         from line 1 of src/sass/screen.scss\A \A 1: @import \"partials/forms\";\A 2: \A 3: $max-width: 60em;\A 4: $padding-value: 1em;\A 5: $footer-height: 6em;\A 6: \A 7: $white: #fcfcfc;\A 8: $black: #3c3c3c;\A 9: $pink: #FFC8C3;\A 10: $pink-grey: #5E5251;"; }

@@ -2,22 +2,22 @@
   margin: 0 auto;
   width: 100%;
   max-width: 20em;
-  padding: $padding-margin-value;
+  padding: $padding-value;
 
 
   input[type=text] {
     display: block;
     width: 100%;
-    padding: $form-padding-value;
-    margin: $form-padding-value auto $form-padding-value auto;
+    padding: $padding-value;
+    margin: $padding-value auto $padding-value auto;
     border: 1px solid $grey;
     color: $black;
   }
 
   input[type=email] {
     display: block;
-    padding: $form-padding-value;
-    margin: 0 auto $form-padding-value auto;
+    padding: $padding-value;
+    margin: 0 auto $padding-value auto;
     width: 100%;
     border: 1px solid $grey;
     color: $black;
@@ -25,8 +25,8 @@
 
   input[type=number] {
     display: block;
-    padding: $form-padding-value;
-    margin: 0 auto $form-padding-value auto;
+    padding: $padding-value;
+    margin: 0 auto $padding-value auto;
     width: 100%;
     border: 1px solid $grey;
     color: $black;
@@ -34,13 +34,13 @@
 
   input[type=submit] {
     display: block;
-    padding: $form-padding-value;
-    margin: 0 auto $form-padding-value auto;
+    padding: $padding-value;
+    margin: 0 auto $padding-value auto;
     width: 100%;
     border: none;
     opacity: 0.7;
     box-shadow: .5em .5em 0px rgba(0,0,0,.1);
-    background-color: $accent-colour;
+    background-color: $color-accent;
     color: $black;
     &:hover { 
       opacity:1;  
@@ -51,8 +51,8 @@
   textarea {
     display: block;
     width: 100%;
-    padding: $form-padding-value;
-    margin: 0 auto $form-padding-value auto;
+    padding: $padding-value;
+    margin: 0 auto $padding-value auto;
     border: 1px solid $grey;
     color: $black;
   }

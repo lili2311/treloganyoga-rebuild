@@ -1,31 +1,51 @@
+@import "partials/variables";
 @import "partials/forms";
+@import "partials/footer";
+//@import "partials/normalize";
 
-$max-width: 60em;
-$padding-value: 1em;
-$footer-height: 6em;
-
-$white: #fcfcfc;
-$black: #3c3c3c;
-$pink: #FFC8C3;
-$pink-grey: #5E5251;
-$color-footer-text: $pink-grey;
-$color-accent: $pink;
-$color-background-light: $white;
-$color-background-dark: $black;
 
 body , html{
-	background-color: $color-background-light;
 	padding: 0;
 	margin: 0;
 	height:100%;
 }
 
 .image-section {
-	background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
-	background-size: cover;
 	height: 30em;
 	width: 100%;
-	
+}
+
+.homepage {
+	background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
+	background-size: cover;
+}
+
+.classes {
+	background: url("../img/background-image-04.jpeg") center center no-repeat;
+	background-size: cover;
+	max-height: 15em;
+}
+.contact {
+	background: url("../img/background-image-03.jpeg") center center no-repeat;
+	background-size: cover;
+	max-height: 15em;
+}
+.about {
+	background: url("../img/background-image-05.jpeg") center center no-repeat;
+	background-size: cover;
+	max-height: 15em;
+}
+
+.text-section{
+	max-width: $max-text-width;
+	margin: 0 auto;
+	padding: $padding-value*2;
+}
+
+h1,h2,h3 {
+	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
 .main-wrap {
@@ -92,32 +112,9 @@ a {
 	text-decoration: none;
 }
 
-.footer {
-	background: $color-accent;
-	position:absolute;
-	bottom:0;
-	width:100%;
-	min-height: $footer-height;
-	text-align: center;
-
-	ul {
-		margin: 0 auto;
-		max-width: $max-width/2;
-		display: inline-block;
-		//padding: $padding-value;
-	}
-	p, a {
-		color: $color-footer-text;
-		//padding: $padding-value;
-
-	}
-	li {
-		padding: $padding-value;
-	}
-}
-
 .social-nav {
 	padding: $padding-value;
+	background: #fff;
 }
 
 .social-icon {

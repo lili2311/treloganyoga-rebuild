@@ -1,0 +1,20 @@
+.footer {
+	background: $color-accent;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	min-height: $footer-height;
+	text-align: center;
+
+	ul {
+		margin: 0 auto;
+		max-width: $max-width/2;
+		display: inline-block;
+	}
+	p, a {
+		color: $color-footer-text;
+	}
+	li {
+		padding: $padding-value;
+	}
+}

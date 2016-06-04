@@ -1,3 +1,5 @@
+src/_site/
+src/css/screen.css.map
 s3settings.json
 deploy
 Gemfile.lock

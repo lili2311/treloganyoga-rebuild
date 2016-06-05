@@ -69,6 +69,19 @@ body, html {
   height: 30em;
   width: 100%; }
 
+.column-2 {
+  margin-left: -5em; }
+
+.column-2-item {
+  display: inline-block;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top; }
+
+.about-image {
+  width: 20em;
+  display: inline-block; }
+
 .homepage {
   background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
   background-size: cover; }
@@ -84,7 +97,7 @@ body, html {
   max-height: 15em; }
 
 .about {
-  background: url("../img/background-image-05.jpeg") center center no-repeat;
+  background: url("../img/background-image-01.jpeg") center center no-repeat;
   background-size: cover;
   max-height: 15em; }
 

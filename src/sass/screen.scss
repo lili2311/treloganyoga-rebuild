@@ -8,24 +8,44 @@ body , html{
 	padding: 0;
 	margin: 0;
 	height:100%;
+	font-family: $font-family-core;
+	font-weight: $font-weight-core;
 }
 
+p {
+	font-family: $font-family-core;
+	font-weight: $font-weight-core;
+}
+
+.image-menu {
+	background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
+	background-size: cover;
+	height: 20em;
+}
+.col-3 {
+	width: 33%;
+	display: inline-block;
+	padding: $padding-value;
+	box-sizing: border-box;
+}
+.button {
+	border: 3px solid $color-accent;
+	padding: $padding-value/2;
+}
+.quote {
+	font-family: $font-family-cursive;
+	border-left: 3px solid $color-accent;
+}
 .image-section {
 	height: 30em;
 	width: 100%;
 }
 
-.column-2 {
-	margin-left: -5em;
-}
-
-.column-2-item {
+.col-2 {
+	width: 49.5%;
 	display: inline-block;
-	width: 50%;
-    display: inline-block;
-    vertical-align: top;
+	vertical-align: top;
 }
-
 .about-image {
 	width: 20em;
 	display: inline-block;
@@ -36,17 +56,17 @@ body , html{
 }
 
 .classes {
-	background: url("../img/background-image-04.jpeg") center center no-repeat;
+	background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
 	background-size: cover;
 	max-height: 15em;
 }
 .contact {
-	background: url("../img/background-image-03.jpeg") center center no-repeat;
+	background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
 	background-size: cover;
 	max-height: 15em;
 }
 .about {
-	background: url("../img/background-image-01.jpeg") center center no-repeat;
+	background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
 	background-size: cover;
 	max-height: 15em;
 }
@@ -54,13 +74,15 @@ body , html{
 .text-section{
 	max-width: $max-text-width;
 	margin: 0 auto;
-	padding: $padding-value*2;
+	padding: $padding-value*4 0;
 }
 
 h1,h2,h3 {
 	text-align: center;
 	padding: 0;
 	margin: 0;
+	font-family: $font-family-core;
+	font-weight: $font-weight-core;
 }
 
 .main-wrap {

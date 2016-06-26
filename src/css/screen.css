@@ -74,8 +74,10 @@ p {
 .image-menu__img {
   background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
   background-size: cover;
-  height: 20em;
-  margin: 0.5em; }
+  height: 20em; }
+  @media (min-width: 700px) {
+    .image-menu__img {
+      margin: 0.5em; } }
 .image-menu__text {
   padding: 0.5em; }
 .image-menu__link {
@@ -84,7 +86,7 @@ p {
 .col-3 {
   width: 100%;
   display: inline-block;
-  margin-bottom: 1em; }
+  margin-bottom: 2em; }
   @media (min-width: 700px) {
     .col-3 {
       width: 32.9%; } }

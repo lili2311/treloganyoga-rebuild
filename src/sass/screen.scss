@@ -1,7 +1,7 @@
+@import "partials/normalize";
 @import "partials/variables";
 @import "partials/forms";
 @import "partials/footer";
-//@import "partials/normalize";
 
 
 body , html{
@@ -18,16 +18,35 @@ p {
 }
 
 .image-menu {
-	background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
-	background-size: cover;
-	height: 20em;
+
+	&__img{
+		background: url("../img/trelogan-yoga-homepage-image.jpeg") center center no-repeat;
+		background-size: cover;
+		height: 20em;
+		margin: $padding-value/2;
+
+	}
+	
+	&__text{
+		padding: $padding-value/2;
+	}
+	
+	&__link{
+		margin: $padding-value/2;
+
+	}
+
 }
 .col-3 {
-	width: 33%;
+	width: 100%;
 	display: inline-block;
-	padding: $padding-value;
-	box-sizing: border-box;
+	margin-bottom: $padding-value;
+
+	@media (min-width: 700px) {
+		width: 32.9%;
+	}
 }
+
 .button {
 	border: 3px solid $color-accent;
 	padding: $padding-value/2;

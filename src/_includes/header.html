@@ -1,8 +1,24 @@
-<header>
-	<div class="logo-container">
+<header class="header">
+	<div class="header__container">
 		<a href="index.html">
-			<img class="logo" src="/img/logo.png" alt="Trelogan Yoga Logo Image">
+			<img class="header_logo" src="/img/logo.png" alt="Trelogan Yoga Logo Image">
 		</a>
 	</div>
-	{% include nav.html %}
+	<nav class="header__nav">
+	    <ul class="header__list">
+	        <li class="header__item">
+	            <a class="header__link" href="about.html">About</a>
+	        </li>
+	        <li class="header__item">
+	            <a class="header__link" href="classes.html">Classes</a>
+	        </li>
+	        <li class="header__item">
+	            <a class="header__link" href="contact.html">Contact</a>
+	        </li>
+	        <li class="header__item">
+	            <a class="header__link" href="https://medium.com/@TreloganYoga">Blog</a>
+	        </li>
+	    </ul>
+	    <button class="header__toggle">Menu</button>
+	</nav>
 </header>

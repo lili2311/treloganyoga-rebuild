@@ -1,18 +1,33 @@
+// Breakpoints
+$min-width: (xs: 0, sm: 480px, md: 768px, lg: 980px, xl: 1200px);
+$max-width: (xs: 479px, sm: 767px, md: 979px, lg: 1199px);
+
+$container-max-width: 900px;
+$container-min-width: 290px;
+
 $max-width: 60em;
 $max-text-width: 60em;
+
 $padding-value: 1em;
 $footer-height: 14em;
 $font-family-core: 'Arimo', sans-serif;
 $font-weight-core: 400;
-$font-family-cursive: "le-monde-livre-classic-std-s", 'Arimo', sans-serif;
+$font-family-cursive: 'le-monde-livre-classic-std-s', 'Arimo', sans-serif;
 
-
+// Colours
 $white: #fcfcfc;
 $black: #444;
-$pink: #FFC8C3;
-$pink-grey: #5E5251;
+$pink: #ffc8c3;
+$pink-grey: #5e5251;
 $grey: #f1f1f1;
+
 $color-footer-text: $pink-grey;
 $color-accent: $pink;
 $color-background-light: $white;
 $color-background-dark: $black;
+
+
+$base-color: $grey;
+
+$base-font-size: (base: 16px, sm: 16px, md: 16px, lg: 16px, xl: 18px);
+$base-line-height: (base: 24px, sm: 24px, md: 24px, lg: 26px, xl: 28px);

@@ -1,0 +1,108 @@
+//
+// Header Component
+//
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-flow: space-between;
+  justify-content: center;
+
+
+  &__logo {
+    flex: 1;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: .5em;
+
+    @media only screen and (min-width: map-get($min-width, md)) {
+      max-width: 5em;
+      padding: 0;
+
+  }
+
+}
+
+.header {
+
+
+
+  }
+
+  &__logo-img {
+    width: 100%;
+  }
+
+  &__nav {
+    width: 100%;
+    text-align: center;
+    flex: 1;
+
+    @media only screen and (min-width: map-get($min-width, md)) {
+      padding: 2em 0;
+      display: inline-block;
+    }
+  }
+
+  &__nav .hidden {
+    @media only screen and (min-width: map-get($min-width, md)) {
+      display: block;
+    }
+  }
+
+  &__list {
+    float: none;
+
+    @media only screen and (min-width: map-get($min-width, md)) {
+      float: right;
+    }
+  }
+
+  &__item {
+
+    @media only screen and (min-width: map-get($min-width, md)) {
+      display: inline-block;
+      margin-left: 1em;
+    }
+  }
+  
+  &__toggle {
+    border: none;
+    border-top: 1px $grey solid;
+    border-bottom: 1px $grey solid;
+    padding: 1em 0;
+    width: 100%;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: map-get($base-font-size, base);
+    line-height: 2em;
+    color: $base-color;
+
+    @media only screen and (min-width: map-get($min-width, md)) {
+      padding: 0;
+      display: none;
+    }
+  }
+
+  &__link {
+    color: $base-color;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: map-get($base-font-size, base);
+    line-height: 2em;
+    padding: 1em 0;
+
+    @media only screen and (min-width: map-get($min-width, md)) {
+      line-height: map-get($base-line-height, lg);
+      padding: 0;
+
+      &:hover {
+        border-bottom: 1px $pink solid;
+        color: $pink;
+      }
+    }
+  }
+}

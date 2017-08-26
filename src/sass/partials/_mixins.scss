@@ -1,0 +1,7 @@
+@mixin serif {
+  font-family: -apple-system, BlinkMacSystemFont, 'ff-meta-serif-web-pro', Georgia, serif;
+}
+
+@mixin unstyled-list {
+  list-style: none;
+}

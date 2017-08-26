@@ -1,59 +1,54 @@
+$submit-box-shadow-color: rgba(0, 0, 0, .1);
+
 .form {
   margin: 0 auto;
-  width: 100%;
   max-width: 20em;
   padding: $padding-value;
+  width: 100%;
 
+  &:hover {
+    opacity: 1;
+  }
+}
 
-  input[type=text] {
-    display: block;
-    width: 100%;
+input {
+
+  border: 1px solid $grey;
+  color: $black;
+  display: block;
+  width: 100%;
+
+  &[type=text] {
+    margin: $padding-value auto;
     padding: $padding-value;
-    margin: $padding-value auto $padding-value auto;
-    border: 1px solid $grey;
-    color: $black;
   }
 
-  input[type=email] {
-    display: block;
+  &[type=email] {
+    margin: 0 auto $padding-value;
     padding: $padding-value;
-    margin: 0 auto $padding-value auto;
-    width: 100%;
-    border: 1px solid $grey;
-    color: $black;
   }
 
-  input[type=number] {
-    display: block;
+  &[type=number] {
+    margin: 0 auto $padding-value;
     padding: $padding-value;
-    margin: 0 auto $padding-value auto;
-    width: 100%;
-    border: 1px solid $grey;
-    color: $black;
   }
 
-  input[type=submit] {
-    display: block;
-    padding: $padding-value;
-    margin: 0 auto $padding-value auto;
-    width: 100%;
-    border: none;
-    opacity: 0.7;
-    box-shadow: .5em .5em 0px rgba(0,0,0,.1);
+  &[type=submit] {
     background-color: $color-accent;
-    color: $black;
-    &:hover { 
-      opacity:1;  
-    }
-  }
-
-
-  textarea {
-    display: block;
-    width: 100%;
+    border: 0;
+    box-shadow: .5em .5em 0 $submit-box-shadow-color;
+    margin: 0 auto $padding-value;
+    opacity: .7;
     padding: $padding-value;
-    margin: 0 auto $padding-value auto;
-    border: 1px solid $grey;
-    color: $black;
   }
+}
+
+
+textarea {
+  border: 1px solid $grey;
+  color: $black;
+  display: block;
+  margin: 0 auto $padding-value;
+  padding: $padding-value;
+  width: 100%;
 }
